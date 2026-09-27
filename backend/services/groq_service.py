@@ -58,8 +58,9 @@ Rules:
 6. Assess the potential impact based only on the information provided.
 7. Give an initial severity recommendation.
 8. Explain the severity recommendation briefly.
-9. Return JSON only.
-10. Do not use Markdown code fences.
+9. Initial severity must be Low/Minor/Major/Critical.
+10. Return JSON only.
+11. Do not use Markdown code fences.
 
 Deviation information:
 

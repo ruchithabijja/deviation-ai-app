@@ -1,0 +1,13 @@
+Deviation Report
+
+Site: API Manufacturing Unit
+Date of Occurrence: 27 September 2026
+Source: Production
+Product: Paracetamol API
+Batch Number: PCM-260927-01
+
+During the manufacturing process of Paracetamol API, the reactor temperature increased to 96°C. The approved operating temperature range for the process is 80°C to 90°C.
+
+The deviation was detected by the production operator during routine monitoring. The batch was immediately placed on hold and the production supervisor was informed.
+
+There was a potential impact on product quality because the temperature exceeded the approved process range. Quality Assurance was notified for further investigation.

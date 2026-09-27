@@ -71,10 +71,9 @@ function DeviationForm() {
       <div className="form-header-row">
         <div className="form-header-info">
           <h1 className="form-main-title">Log Customer Complaint</h1>
-          <p className="form-main-subtitle">API & FDF Quality Assurance Module</p>
         </div>
         <div className="form-header-badge-wrapper">
-          <span className="badge-pending-triage">Pending Triage</span>
+          <span className="badge-pending-triage">Draft</span>
         </div>
       </div>
 

@@ -37,7 +37,8 @@ Rules:
 6. Return a short natural-language confirmation message.
 
 7. Format "date_of_occurrence" strictly as "YYYY-MM-DD" (e.g. 2026-09-11).
-8. Return ONLY valid JSON.
+8. Initial severity must be Low/Minor/Major/Critical.
+9. Return ONLY valid JSON.
 
 Use this exact structure:
 

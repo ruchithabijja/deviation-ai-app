@@ -1,0 +1,13 @@
+Deviation Report
+
+Site: API Manufacturing Unit
+Date of Occurrence: 26 September 2026
+Source: Warehouse
+Product: Amoxicillin API
+Batch Number: AMX-260926-04
+
+During dispensing of raw material, the operator noticed that the material label showed a different lot number from the lot number recorded in the dispensing document.
+
+The material was not used in manufacturing. It was immediately segregated and placed under hold pending verification by Quality Assurance.
+
+No product was manufactured using the affected material.
