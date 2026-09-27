@@ -53,12 +53,13 @@ Rules:
 1. Extract information only from the provided text.
 2. Do not invent information.
 3. If a field is not available, use an empty string.
-4. Create a short meaningful title based on the deviation.
-5. Assess the potential impact based only on the information provided.
-6. Give an initial severity recommendation.
-7. Explain the severity recommendation briefly.
-8. Return JSON only.
-9. Do not use Markdown code fences.
+4. Format "date_of_occurrence" strictly as "YYYY-MM-DD" (e.g. 2026-09-11).
+5. Create a short meaningful title based on the deviation.
+6. Assess the potential impact based only on the information provided.
+7. Give an initial severity recommendation.
+8. Explain the severity recommendation briefly.
+9. Return JSON only.
+10. Do not use Markdown code fences.
 
 Deviation information:
 

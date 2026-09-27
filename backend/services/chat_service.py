@@ -36,7 +36,8 @@ Rules:
 
 6. Return a short natural-language confirmation message.
 
-7. Return ONLY valid JSON.
+7. Format "date_of_occurrence" strictly as "YYYY-MM-DD" (e.g. 2026-09-11).
+8. Return ONLY valid JSON.
 
 Use this exact structure:
 

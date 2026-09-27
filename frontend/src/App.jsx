@@ -1,37 +1,16 @@
 import AIAssistant from "./components/AIAssistant";
 import DeviationForm from "./components/DeviationForm";
-
+import "./App.css";
 
 function App() {
-
-    return (
-
-        <div>
-
-            <header>
-
-                <h1>
-                    AIVOA.AI
-                </h1>
-
-                <p>
-                    AI-Powered Deviation Management
-                </p>
-
-            </header>
-
-
-            <main>
-
-                <DeviationForm />
-
-                <AIAssistant />
-
-            </main>
-
-        </div>
-    );
+  return (
+    <div className="app-container">
+      <main className="main-layout">
+        <DeviationForm />
+        <AIAssistant />
+      </main>
+    </div>
+  );
 }
-
 
 export default App;
