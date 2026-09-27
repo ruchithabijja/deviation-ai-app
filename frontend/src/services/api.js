@@ -34,3 +34,19 @@ export const saveDeviation = async (data) => {
 
     return response.data;
 };
+
+export const chatUpdateDeviation = async (
+    message,
+    formData
+) => {
+
+    const response = await axios.post(
+        `${API_URL}/chat`,
+        {
+            message: message,
+            form_data: formData
+        }
+    );
+
+    return response.data;
+};

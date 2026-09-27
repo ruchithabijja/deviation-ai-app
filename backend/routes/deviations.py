@@ -15,6 +15,14 @@ from services.pdf_extractor import extract_text_from_pdf
 from services.groq_service import analyze_deviation
 from ai.deviation_graph import deviation_graph
 
+from schemas import (
+    DeviationCreate,
+    DeviationResponse,
+    ChatUpdateRequest
+)
+
+from services.chat_service import update_deviation_form
+
 router = APIRouter(
     prefix="/api/deviations",
     tags=["Deviations"]
@@ -226,4 +234,37 @@ async def analyze_deviation_input(
         raise HTTPException(
             status_code=500,
             detail=f"AI analysis failed: {str(e)}"
+        )
+
+
+
+@router.post("/chat")
+async def chat_update_deviation(
+    request: ChatUpdateRequest
+):
+
+    if not request.message.strip():
+        raise HTTPException(
+            status_code=400,
+            detail="Message cannot be empty"
+        )
+
+    try:
+
+        result = update_deviation_form(
+            request.message,
+            request.form_data
+        )
+
+        return {
+            "success": True,
+            "message": result["message"],
+            "updated_form": result["updated_form"]
+        }
+
+    except Exception as e:
+
+        raise HTTPException(
+            status_code=500,
+            detail=f"Chat update failed: {str(e)}"
         )

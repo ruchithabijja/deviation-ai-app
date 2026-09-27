@@ -18,3 +18,8 @@ class DeviationCreate(BaseModel):
 
 class DeviationResponse(DeviationCreate):
     id: int
+
+
+class ChatUpdateRequest(BaseModel):
+    message: str
+    form_data: dict
